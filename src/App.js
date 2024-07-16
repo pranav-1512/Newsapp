@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
-import Cards from './components/Cards'
 import Newsbox from './components/Newsbox'
 import {
   BrowserRouter as Router,
