@@ -8,7 +8,7 @@ export class Cards extends Component {
                 <div className="card" style= {{width: "18rem"}}>
                 <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '90%', zIndex: '1'}}>{author?author:'Unknown'}
                         </span>
-                    <img src={urlToImage} className="card-img-top" />
+                    <img src={urlToImage} className="card-img-top" alt="Image"/>
                         <div className="card-body">
                             <h5 className="card-title">{title}</h5>
                             <p className="card-text">{description}</p>
